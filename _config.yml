@@ -1,1 +1,3 @@
 theme: jekyll-theme-tactile
+title: ZFSBootMenu
+description: A boot loader to manage ZFS boot environments, as a dracut module
