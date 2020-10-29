@@ -73,5 +73,5 @@ done safely, those operations will not be permitted.
 
 ## More Details
 
-Please refer to the [ZFSBootMenu project web site](https://github.com/zbm-dev/zfsbootmenu)
+Please refer to the [ZFSBootMenu source repository](https://github.com/zbm-dev/zfsbootmenu)
 for detailed documentation.
