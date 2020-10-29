@@ -3,6 +3,8 @@ title: ZFSBootMenu
 description: A boot loader to manage ZFS boot environments
 show_downloads: true
 github:
-  public: true
   is_project_page: false
+  public: true
+  zip_url: "https://github.com/zbm-dev/zfsbootmenu/zipball/master"
+  tar_url: "https://github.com/zbm-dev/zfsbootmenu/tarball/master"
   owner_url: "https://github.com/zbm-dev/zfsbootmenu/"
