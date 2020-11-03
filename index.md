@@ -6,7 +6,7 @@ adventurous user, even bootstrap a system installation via `zfs recv`.
 
 ## Demonstration
 
-[![asciicast](https://asciinema.org/a/FN4gWtVUPPXzgZPrCjd8mK6Vz.svg)](https://asciinema.org/a/FN4gWtVUPPXzgZPrCjd8mK6Vz)
+[![asciicast](https://asciinema.org/a/8GDkUpX0IsupMdx0lgWHMG5QP.svg)](https://asciinema.org/a/8GDkUpX0IsupMdx0lgWHMG5QP)
 
 ## Key Features
 
