@@ -5,6 +5,6 @@ show_downloads: true
 github:
   is_project_page: false
   public: true
-  zip_url: "https://github.com/zbm-dev/zfsbootmenu/archive/v1.7.1.zip"
-  tar_url: "https://github.com/zbm-dev/zfsbootmenu/archive/v1.7.1.tar.gz"
+  zip_url: "https://github.com/zbm-dev/zfsbootmenu/archive/v1.8.0.zip"
+  tar_url: "https://github.com/zbm-dev/zfsbootmenu/archive/v1.8.0.tar.gz"
   owner_url: "https://github.com/zbm-dev/zfsbootmenu/"
