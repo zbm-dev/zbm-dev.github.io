@@ -29,7 +29,7 @@ adventurous user, even bootstrap a system installation via `zfs recv`.
 
 ## Overview of the Boot Process
 
-* Via GRUB, direct EFI booting, gummiboot, rEFInd or other UEFI boot manager,
+* Via syslinux, direct EFI booting, gummiboot, rEFInd or other UEFI boot manager,
   boot a stock Linux kernel along with an initramfs containing the ZFSBootMenu
   dracut module.
 * Import all importable pools.
@@ -50,7 +50,7 @@ adventurous user, even bootstrap a system installation via `zfs recv`.
     - Allow selection of a desired kernel within any boot environment.
 * After a boot environment is selected for boot (automatically or manually),
   load the selected kernel and initramfs, unmount all ZFS filesystems, and boot
-  the boot the system.
+  the system.
 
 At this point, you'll be booting into your usual OS-managed kernel and
 initramfs, along with any arguments needed to correctly boot your system.
