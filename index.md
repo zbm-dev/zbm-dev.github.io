@@ -4,9 +4,9 @@ features, it allows a user to have multiple "boot environments" (with different
 distros, for example), manipulate snapshots before booting, and, for the
 adventurous user, even bootstrap a system installation via `zfs recv`.
 
-## Demonstration
+## Main view
 
-[![asciicast](https://asciinema.org/a/8GDkUpX0IsupMdx0lgWHMG5QP.svg)](https://asciinema.org/a/8GDkUpX0IsupMdx0lgWHMG5QP)
+![screenshot](/media/v1.11.0-multi-be.png?raw=true)
 
 ## Key Features
 
