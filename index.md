@@ -1,8 +1,28 @@
-ZFSBootMenu is a Dracut module that intends to provide Linux distributions with
-an experience similar to FreeBSD's bootloader. By taking advantage of ZFS
-features, it allows a user to have multiple "boot environments" (with different
-distros, for example), manipulate snapshots before booting, and, for the
-adventurous user, even bootstrap a system installation via `zfs recv`.
+ZFSBootMenu is a Linux bootloader that attempts to provide an experience
+similar to the FreeBSD bootloader. By taking advantage of ZFS features, it
+allows a user to have multiple "boot environments" (with different distros, for
+example), manipulate snapshots before booting, and, for the adventurous user,
+even bootstrap a system installation via `zfs recv`.
+
+The bootloader is implemented as a small Linux distribution, rolled into a
+single initramfs image or UEFI bundle, that provides the tools necessary to
+identify, control and boot environments found on ZFS pools. The bootloader is
+constructed as a module for [dracut](https://github.com/dracutdevs/dracut) or
+[mkinitcpio](https://github.com/archlinux/mkinitcpio). It is possible to use
+standard add-on modules for either initramfs generator to incorporate advanced
+functionality such as remote access via SSH.
+
+[Pre-built ZFSBootMenu images](https://get.zfsbootmenu.org) are available for
+convenience. Full customization is possible by
+[building a local image](https://github.com/zbm-dev/zfsbootmenu#local-image-creation);
+locally built images will use the kernel provided by your distribution. Additionally,
+a [build script](https://github.com/zbm-dev/zfsbootmenu#local-image-creation)
+facilitates
+[containerized builds](https://github.com/zbm-dev/zfsbootmenu/tree/master/releng/docker#readme).
+Build containers are based on Void Linux and provide the same environment used
+to create the pre-built images, but allow injection of custom configuration and
+modules for maximum flexibility in a controlled environment.
+
 
 ## Main view
 
