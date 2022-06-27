@@ -54,9 +54,9 @@ modules for maximum flexibility in a controlled environment.
   dracut module.
 * Import all importable pools.
 * Try to identify a default boot environment.
-    - If ZFSBootMenu was started with a `root=zfsbootmenu:POOL=<pool>` argument,
-      the default boot environment will be that specified by  the `bootfs`
-      property on the specified pool.
+    - If ZFSBootMenu was started with a `zbm.prefer=<pool>` argument, the
+      default boot environment will be that specified by the `bootfs` property
+      on the specified pool.
     - If no preferred pool was identified, look for the first identified pool
       with a `bootfs` property to determine the default boot environment.
 * If a default boot environment was identified, present a countdown timer for
